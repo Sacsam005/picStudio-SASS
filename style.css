@@ -11,11 +11,9 @@
           box-sizing: border-box;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
-  overflow-x: hidden;
 }
 
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 9rem;
 }
