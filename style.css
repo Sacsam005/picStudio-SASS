@@ -11,7 +11,7 @@
           box-sizing: border-box;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 html {
