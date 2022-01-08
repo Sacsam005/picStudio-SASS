@@ -107,6 +107,12 @@ header .navbar {
   padding: 0 1.5rem;
 }
 
+@media (max-width: 680px) {
+  header .navbar {
+    padding: 0;
+  }
+}
+
 header .navbar ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -311,6 +317,14 @@ section .image-section img {
   font-style: italic;
 }
 
+@media (max-width: 680px) {
+  .testimonial {
+    -webkit-transform: skew(10deg);
+            transform: skew(10deg);
+    padding: 0;
+  }
+}
+
 .testimonial .testimonial-cards {
   display: -ms-grid;
   display: grid;
@@ -322,10 +336,11 @@ section .image-section img {
 
 @media (max-width: 680px) {
   .testimonial .testimonial-cards {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
+    padding: 0 2rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
   }
 }
 
@@ -426,7 +441,7 @@ section .image-section img {
 
 @media (max-width: 680px) {
   .footer .booking-btn {
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
   }
 }
 
@@ -482,7 +497,7 @@ section .image-section img {
     left: 0;
   }
   header .nav-menu a {
-    margin: 2rem;
+    margin: 1rem;
     font-size: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -508,9 +523,6 @@ section .image-section img {
   }
   .contact-info {
     width: 100%;
-  }
-  .testimonials {
-    margin: 0 auto;
   }
   .form {
     padding: 0;
